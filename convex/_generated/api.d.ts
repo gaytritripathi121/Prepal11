@@ -1,12 +1,4 @@
-/* eslint-disable */
-/**
- * Generated `api` utility.
- *
- * THIS CODE IS AUTOMATICALLY GENERATED.
- *
- * To regenerate, run `npx convex dev`.
- * @module
- */
+
 
 import type {
   ApiFromModules,
@@ -25,14 +17,7 @@ import type * as resources from "../resources.js";
 import type * as router from "../router.js";
 import type * as users from "../users.js";
 
-/**
- * A utility for referencing Convex functions in your app's API.
- *
- * Usage:
- * ```js
- * const myFunctionReference = api.myModule.myFunction;
- * ```
- */
+
 declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   exams: typeof exams;
