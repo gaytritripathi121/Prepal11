@@ -1,28 +1,25 @@
-# PrepPal - Exam Collaboration Platform
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
-  
-This project is connected to the Convex deployment named [`cheery-anteater-316`](https://dashboard.convex.dev/d/cheery-anteater-316).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
+# PrepPal – Smart Exam Prep & Study Exchange Platform
 
-## App authentication
+PrepPal is a MERN-based platform that connects students for subject exchange and provides AI-powered tools for simplifying study materials and legal/medical reports.
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+## Live Demo
+(https://prepal1.onrender.com)
+## Features
+- Find study partners based on teach/learn subject match
+- Upload and simplify complex legal/medical reports using AI
+- Track progress with visual dashboards and trends
+- Receive reminders and notifications for study goals
+- Expert consultation system for doctors and lawyers (paid)
+- Secure user login and document storage
+- Two user types: Students/Relatives and Experts
 
-## Developing and deploying your app
+## Tech Stack
+- React, Redux Toolkit, Material UI
+- Node.js, Express, MongoDB
+- JWT Authentication, Bcrypt
+- AI-based NLP tools for text simplification
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
-* Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
-* Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
-
-## HTTP API
-
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+## Author
+Gaytri Tripathi  
+GitHub:  https://github.com/gaytritripathi121 
+LinkedIn: https://www.linkedin.com/in/gaytri-tripathi-948aa4357/
